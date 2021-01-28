@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\SoloState.cs" />
     <Compile Include="Assets\Scripts\Tweens\ScaleSpring.cs" />
     <Compile Include="Assets\Scripts\Tweens\TweenBase.cs" />
+    <Compile Include="Assets\Scripts\WoodChest.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/programs/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -609,6 +610,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.Animation.Runtime">
       <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
     </Reference>
@@ -672,6 +676,9 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
     </Reference>
@@ -686,12 +693,6 @@
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>E:/AllProject/UnitGitHub/morgen/morgen/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
