@@ -30,11 +30,10 @@ public class PlayController : MonoBehaviour
         if(Timer>0)
         {
             Timer = Timer - Time.deltaTime;
+            if(Timer<=0)
+                anim.SetFloat("attack", 0.0f);
         }
-        else
-        {
-            anim.SetFloat("attack", 0.0f);
-        }
+        
         float moveX = Input.GetAxisRaw("Horizontal");
         float moveY = Input.GetAxisRaw("Vertical");
 

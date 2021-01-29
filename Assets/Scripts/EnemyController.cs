@@ -7,6 +7,9 @@ public class EnemyController : MonoBehaviour
     public float speed = 3;
     private Rigidbody2D rbody;
 
+    public float DieCount = 3.0f;
+    public int isDie = 0;
+
     public bool isVertical;//垂直方向移动
     public float nowtime;
     public float fixedtime=2;
@@ -24,7 +27,12 @@ public class EnemyController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (isDie == 1)
+        {
+            DieCount = DieCount - Time.deltaTime;
+            if (DieCount < 0)
+                Destroy(this.gameObject);
+        }
         nowtime = nowtime - Time.deltaTime;
         if (nowtime < 0)
         {
@@ -39,5 +47,7 @@ public class EnemyController : MonoBehaviour
     public void EnermyDie()
     {
         anim.SetFloat("die", 4.0f);
+        isDie = 1;
+        speed = 0;
     }
 }
