@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\AnchorManager.cs" />
     <Compile Include="Assets\Scripts\CustomGrid.cs" />
     <Compile Include="Assets\Scripts\Demo.cs" />
+    <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Inanimate.cs" />
     <Compile Include="Assets\Scripts\LayerManager.cs" />
     <Compile Include="Assets\Scripts\Monster.cs" />
