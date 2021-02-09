@@ -7,8 +7,19 @@ public class MainMenu : MonoBehaviour
 {
     public void PlayGame()
     {
+
+        StartCoroutine(FadeScene());
+
+    }
+
+    IEnumerator FadeScene()
+    {
+        float time = GameObject.Find("FadeScreen").GetComponent<Fade>().BeginFade(1);
+        yield return new WaitForSeconds(time);
+
         SceneManager.LoadScene(1);
     }
+
 
     public void QuitGame()
     {
